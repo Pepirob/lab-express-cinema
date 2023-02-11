@@ -1,0 +1,10 @@
+<a class="back-home" href="/">Home</a>
+<div class="gallery">
+  {{#each movieArr}}
+    <div class="gallery-element">
+      <img src="{{this.image}}" alt="movie" />
+      <h3>{{this.title}}</h3>
+      <a href="/movies/{{this._id}}">See more</a>
+    </div>
+  {{/each}}
+</div>

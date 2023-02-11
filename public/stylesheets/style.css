@@ -1,8 +1,71 @@
 body {
-  padding: 50px;
+  margin: 0 auto;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+h1 {
+  color: white;
+  font-size: 10rem;
+}
 a {
   color: #00B7FF;
 }
+.home-btn{
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #567a88;
+  width: 22rem;
+  height: 6rem;
+  border-radius: 3rem;
+  border: none;
+}
+.home-page {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: stretch;
+}
+.home-page h1 {
+  width: 45rem;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline-end: 2rem;
+  margin-inline-start: 2rem;
+}
+.gallery-element{
+  display: flex;
+  flex-direction: column;
+  margin-inline-end: 8rem;
+  margin-inline-start: 8rem;
+  align-items: center;
+  width: 221.05px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.gallery-element img {
+  width: 182px;
+} 
+.back-home {
+  display:block;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.container img {
+  margin-right: 3rem;
+}
+.description {
+  width: 30%;
+}
+
